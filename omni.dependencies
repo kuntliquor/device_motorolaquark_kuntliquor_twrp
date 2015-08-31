@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "CyanogenMod",
+    "repository": "android_kernel_motorola_apq8084",
+    "target_path": "kernel/motorola/apq8084",
+    "revision": "cm-12.1"
+  }
+]
