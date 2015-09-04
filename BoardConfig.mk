@@ -42,7 +42,7 @@ TARGET_CPU_VARIANT := krait
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 
 # Kernel
-#kernle git clone https://github.com/CyanogenMod/android_device_qcom_common -b cm-12.1 device/qcom/common
+#kerlne git clone https://github.com/CyanogenMod/android_device_qcom_common -b cm-12.1 device/qcom/common
 #dbtool git clone https://github.com/CyanogenMod/android_kernel_motorola_apq8084 -b cm-12.1 kernel/motorola/apq8084
 
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x37 ehci-hcd.park=3 vmalloc=400M utags.blkdev=/dev/block/platform/msm_sdcc.1/by-name/utags utags.backup=/dev/block/platform/msm_sdcc.1/by-name/utagsBackup
