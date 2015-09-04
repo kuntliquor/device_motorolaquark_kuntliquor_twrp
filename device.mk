@@ -136,11 +136,6 @@ PRODUCT_PACKAGES += \
     charger \
     charger_res_images
 
-# CMActions
-PRODUCT_PACKAGES += \
-    libjni_CMActions \
-    CMActions
-
 # CRDA
 PRODUCT_PACKAGES += \
     crda \

@@ -18,7 +18,7 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 $(call inherit-product, device/motorola/quark/device.mk)
-$(call inherit-product-if-exists, vendor/motorola/quark/device-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/quark/quark-vendor.mk)
 
 PRODUCT_PACKAGES += \
     charger_res_images \
