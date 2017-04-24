@@ -38,7 +38,7 @@ static camera_module_t *gVendorModule = 0;
 
 static char **fixed_set_params = NULL;
 
-static int camera_device_open(const hw_module_t *module, const char *name,
+static int camera_device_oen(const hw_module_t *module, const char *name,
         hw_device_t **device);
 static int camera_get_number_of_cameras(void);
 static int camera_get_camera_info(int camera_id, struct camera_info *info);
